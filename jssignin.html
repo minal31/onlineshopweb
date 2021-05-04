@@ -1,0 +1,62 @@
+<html>
+<html>
+
+<head>
+	<title>Minal Online Shop</title>
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	<script type="text/javascript">
+		 function validate() {
+
+
+
+		 	var user=document.getElementById("username").value;
+
+		 	var pass=document.getElementById("password").value;
+
+           
+         
+
+		 	 if(user=="admin" && pass=="admin")
+		 	 	alert("login success")
+
+		 	
+		 	 
+		 	 else
+		 	 
+		 	 	alert("login error")
+	
+
+		 	 
+
+		 }
+</script>
+</head>
+
+<body>
+<header>
+<center>	
+
+
+	<nav>
+		
+		<div class="logo"><h1 >  MINAL ONLINE SHOP</h1></div>
+			
+			</nav>
+			
+<form  name="LoginForm" method="POST" >
+	
+	<p class="btn"><b>LOGIN HERE</b><br></br>
+
+		
+<label >username:</label><input  type ="text"   id="username" name="username"><br></br>
+<label>password:</label><input type ="password" id="password" name="password"><br></br>
+<button type ="button" onclick="validate()">Login</button><br></br>
+<a  href ="index1.html" class="button">Back</a>
+</p>
+</form>
+
+	
+</center>
+</header>
+</body>
+</html>
